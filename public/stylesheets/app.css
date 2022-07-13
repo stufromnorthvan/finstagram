@@ -4,6 +4,7 @@ header {
 }
 
 body {
+    font-family: 'Fjalla One', sans-serif;
     background-color: whitesmoke;
 }
 
@@ -18,4 +19,12 @@ main {
 
 .finstagram-post .user-info img {
     border-radius: 40%;
+}
+
+a.photo{
+    transition: padding 0.5s;
+}
+
+a.photo:hover{
+    padding: 10px;
 }
