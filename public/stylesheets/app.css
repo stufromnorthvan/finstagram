@@ -28,3 +28,15 @@ a.photo{
 a.photo:hover{
     padding: 10px;
 }
+
+@media screen and (max-width: 1024px) {
+    header {
+        padding: 0 100px;
+    }
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 480px) {
+
+}
